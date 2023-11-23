@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    color: #40514e;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: Sacramento, cursive;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+hr{
+    border-style: none;
+    border-color: #78a3a3;
+    border-width: 0.4rem;
+    border-top-style: dotted;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+/* headings */
+.heading-text{
+    color: #66bfbf;
+}
+
+.heading-subtext{
+    color: #11999e;
+}
+
+/* top container */
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 10%;
+    position: relative;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+.profile-pic{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+/* middle container */
+.skills-heading{
+    color: #66bfbf;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.mc-pics{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.writing{
+    float: left;
+    margin-right: 2rem;
+}
+
+.gaming{
+    float: right;
+    margin-left: 2rem;
+}
+
+.music{
+    float: left;
+    margin-right: 2rem;
+}
+
+.profile, .contact-me{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.btn{
+    width: 8rem;
+    display: block;
+    background-color: #11999e;
+    color: white;
+    padding: 0.7rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10% auto 0;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    margin: 0;
+    height: 5rem;
+    padding: 50px 0 20px 0;
+}
+
+.footer-link{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2%;
+    color: #11999e;
+}
+
+.footer-link:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.copyright{
+    padding: 20px 0;
+    color: #eaf6f6;
+    font-size: 0.75rem;
+}
